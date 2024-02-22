@@ -153,9 +153,9 @@ const game = () => {
       break;
     }
 
-    const playAgain = prompt("Do you want to play again(y/n)?");
+    const playAgain = prompt("Do you want to play again(Y/N)?");
 
-    if (playAgain != "y") break;
+    if (playAgain.toUpperCase() !== "Y") break;
   }
 };
 
